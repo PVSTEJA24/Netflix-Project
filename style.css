@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: #fff;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 26px 56px;
+   
+
+}
+header .logo{
+    display: block;
+}
+header .logo svg{
+    fill: rgb(229,9,20);
+    height: 40px;
+    width: 148px;
+}
+header div+div{
+    text-align: right;
+}
+header a.button{
+    top: 20px;
+    display: inline-block;
+    background-color:rgb(252, 21, 32) ;
+    color: #fff;
+    height: 20px;
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 2px;
+
+}
+header select{
+    background: transparent;
+    color: #fff;
+    height: 40px;
+    padding: 6px 0px 6px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px;
+    width: 130px;
+    border: 2px solid rgba(23, 22, 22, 0.996);
+}
+header div select option{
+    background-color:black;
+}
+.splash .background{
+    position: relative;
+}
+.splash .background img{
+    max-width: 100%;
+    opacity: 0.3;
+}
+div.splash{
+    position: relative;
+}
+div.splash div.gradient{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    position: absolute;
+    inset:0;
+}
+div.splash div.content{
+    max-width: 655px;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    left: 50%;
+    margin-left: -327.5px;
+}
+.splash h1{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    
+}
+.splash h2{
+    font-size: 1.625rem;
+    margin-top: 21px;
+    margin-bottom: 45px;
+    font-weight: normal;
+}
+.splash h3{
+    font-size: 1.2rem;
+    font-weight: normal;  
+}
+.splash form{
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns:  1fr max-content
+}
+.splash input{
+    padding: 12px;
+    font-size:1.2rem;
+    width: 90%;
+}
+.splash button{
+    background-color: red;
+    border-radius: 2px;
+    font-size:1.2rem;
+    height: 50px;
+    color: #fff;
+    max-width: 100%;
+    padding: 5px;
+}
+.splash button:hover{
+    background-color: rgb(238, 85, 85);
+}
+.splash .mail{
+    background-color: transparent;
+    border: 2px solid rgba(66, 64, 64, 0.781);
+    color: #fff;
+}
+section{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 35px;
+    align-items: center;
+    border-top: 8px solid rgb(66, 65, 65);
+    
+}
+img
+section div.texts h1{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.media{
+    position: relative;
+}
+section div.texts p{
+    font-size: 1.625rem;
+}
+.s1 img {
+    width: 400px;
+}
+.s1 video{
+    width: 293px;
+    position: absolute;
+    top: 62px;
+    right: 280px;   
+}
+
+section:nth-child(even) div.texts{
+    order: 2;
+}
+
+.st{
+    height: 435px;
+    width: 535px;
+}
+.childr{
+    height: 435px;
+    width: 535px;
+}
+
+.last{
+    border-bottom: 8px solid rgb(66, 65, 65);
+}
+div.faq{
+    padding-top: 72px;
+}
+div.faq h1{
+    font-size: 3.25rem;
+}
+div.questions{
+    position: relative;
+    max-width: 635px;
+    margin: 10px auto;
+    background-color: #303030;
+    font-size: 1.625rem;
+}
+div.questions svg{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 10px;
+    top: 10px;
+}
+div.questions div.header{
+    padding: 20px 20px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+div.questions div.answer{
+    padding: 20px 20px;
+    
+}
